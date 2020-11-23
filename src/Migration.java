@@ -160,7 +160,7 @@ public class Migration extends CordovaPlugin {
 
     private void restartCordova(){
         Log.d(TAG, "restarting Cordova activity");
-        
+        doColdRestart();
     }
 
 
